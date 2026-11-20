@@ -55,7 +55,6 @@ Iris-Classification/
 |-- iris.csv
 |-- iris_classification.ipynb
 |-- README.md
-`-- .gitignore
 ```
 
 ## Requirements
@@ -72,8 +71,8 @@ Iris-Classification/
 Clone the repository and enter the project directory:
 
 ```bash
-git clone https://github.com/opeayomide320-alt/Iris-Classification.git
-cd Iris-Classification
+git clone https://github.com/opeayomide320-alt/Datheon_Machine_Learning_and_Data_Science_Internship.git
+cd Datheon_Machine_Learning_and_Data_Science_Internship/Iris-Classification
 ```
 
 Create and activate a virtual environment:

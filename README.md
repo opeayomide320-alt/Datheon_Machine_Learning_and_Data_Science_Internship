@@ -9,7 +9,7 @@ and Data Science internship.
 |---|---|---|
 | Iris Species Classification | [Iris-Classification](Iris-Classification/) | Completed |
 | California Housing Price Prediction | [Task 2 folder](Task_02_Housing_Price_Prediction/) | Completed |
-| Task 3 | - | Pending |
+| Predictive Customer Churn Classifier | [Task 3 folder](Task_03_Customer_Churn_Prediction/) | Completed |
 | Task 4 | - | Pending |
 
 ## Task 1: Iris Species Classification
@@ -27,3 +27,12 @@ This project compares OLS, Ridge, and Lasso regression on the California Housing
 
 - [Housing prediction notebook](Task_02_Housing_Price_Prediction/housing_price_prediction.ipynb)
 - [Housing dataset](Task_02_Housing_Price_Prediction/housing.csv)
+- [Task documentation](Task_02_Housing_Price_Prediction/README.md)
+
+## Task 3: Predictive Customer Churn Classifier
+
+This project compares Random Forest and XGBoost for predicting telecom customer churn. On 1,409 held-out customers, Random Forest achieved a ROC-AUC of 0.8438 and XGBoost achieved 0.8453. Both exceeded the 0.80 target. The notebook includes ROC curves, confusion matrices, and the ten most important features for each model.
+
+- [Customer churn prediction notebook](Task_03_Customer_Churn_Prediction/customer_churn_prediction.ipynb)
+- [Telco customer churn dataset](Task_03_Customer_Churn_Prediction/Telco_Customer_Churn.csv)
+- [Task documentation](Task_03_Customer_Churn_Prediction/README.md)

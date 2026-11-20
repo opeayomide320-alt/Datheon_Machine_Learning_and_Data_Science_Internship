@@ -81,6 +81,8 @@ The held-out test set contains 4,128 census block groups.
 OLS had the lowest test RMSE, but regularization produced very similar results.
 The highest and lowest test RMSE values differed by only $11.26.
 
+The residual plots show similar error patterns across all three models. Each plot has a long positive tail, meaning the model substantially underestimated the median house value for some census block groups.
+
 The five-fold cross-validation mean RMSE values were $68,485.50 for Ridge and
 $68,490.90 for Lasso.
 
@@ -100,7 +102,7 @@ Task_02_Housing_Price_Prediction/
 - pandas
 - matplotlib
 - seaborn
-- scikit-learn
+- scikit-learn 1.4 or newer
 
 ## Setup
 
@@ -127,7 +129,7 @@ Install the required packages:
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install jupyter pandas matplotlib seaborn scikit-learn
+python -m pip install jupyter pandas matplotlib seaborn "scikit-learn>=1.4"
 ```
 
 ## Run the Notebook
